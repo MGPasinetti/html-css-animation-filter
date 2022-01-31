@@ -105,6 +105,13 @@
 /* Esercizio 10 */
 .ex-10-icon {
     font-size: 60px;
+    animation: anticlockwise 1s linear infinite;
+}
+
+@keyframes anticlockwise {
+    0% {
+        transform: rotate(1turn);
+    }
 }
 
 /* Esercizio 11 */
