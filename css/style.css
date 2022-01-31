@@ -119,6 +119,22 @@
     font-size: 60px;
 }
 
+.ex-11-icon:hover {
+    animation: clockwise 2s linear;
+}
+
+@keyframes clockwise {
+    0% {
+        transform: rotate(0);
+    }
+    90% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
 /* Esercizi 12-13 */
 .ex-12-button, .ex-13-button {
     position: relative;
