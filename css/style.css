@@ -39,28 +39,47 @@
     width: 100px;
     height: 100px;
     background: red;
+    transition: 1s;
 }
 
+.ex-4-square:hover {
+    opacity: 0;
+}
+
+/* Esercizio 5 */
 .ex-5-square {
     margin: 20px;
     width: 60px;
     height: 60px;
     background: red;
 }
+
+/* Esercizio 6 */
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
 
+/* Esercizio 7 */
+
+/* Esercizio 8 */
+
+/* Esercizio 9 */
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
 }
+
+/* Esercizio 10 */
 .ex-10-icon {
     font-size: 60px;
 }
+
+/* Esercizio 11 */
 .ex-11-icon {
     font-size: 60px;
 }
+
+/* Esercizi 12-13 */
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
@@ -74,6 +93,7 @@
     text-align: center;
     text-decoration: none;
 }
+
 .ex-12-top-white, .ex-13-top-white {
     position: absolute;
     top: -10px;
@@ -82,6 +102,7 @@
     width: 60px;
     height: 20px;
 }
+
 .ex-12-bottom-white, .ex-13-bottom-white {
     position: absolute;
     bottom: -10px;
